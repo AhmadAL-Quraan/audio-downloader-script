@@ -10,15 +10,15 @@ Features
 
 - Prerequisites
 
-    yt-dlp: Ensure that yt-dlp is installed on your system. You can install it using pip:
+    - yt-dlp: Ensure that yt-dlp is installed on your system. If you are on debian linux You can install it using sudo apt-get:
 
-    bash
+    ```bash
+     sudo apt-get install yt-dlp
+    ```
 
-    pip install yt-dlp
+   - Bash: This script is intended to be run in a Bash shell environment.
 
-    Bash: This script is intended to be run in a Bash shell environment.
-
-Usage
+  * Usage
 
     Clone or Download the Script: Ensure you have the script file (download_audio.sh) on your local machine.
 
