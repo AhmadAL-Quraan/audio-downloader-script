@@ -38,7 +38,7 @@ Replace "https://example.com/path-to-audio" with the actual URL of the media you
 Script Details
 
     Input: The script requires a single argument: the URL of the media to be downloaded.
-    Output Directory: By default, the audio files will be saved to /home/ahmadquraan1/Music. You can modify the OUTPUT_DIR variable in the script to change this location.
+    Output Directory: By default, the audio files will be saved to /home/your_username/Music. You can modify the OUTPUT_DIR variable in the script to change this location.
     Output File Naming: The output file will be named based on the title of the media and its extension, as specified by the OUTPUT_FILE pattern.
 
 Example
