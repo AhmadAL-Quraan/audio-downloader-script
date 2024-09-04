@@ -18,24 +18,23 @@ Features
 
    - Bash: This script is intended to be run in a Bash shell environment.
 
-  * Usage
+* Usage
 
     Clone or Download the Script: Ensure you have the script file (download_audio.sh) on your local machine.
 
     Make the Script Executable: Before running the script, make sure it has executable permissions. Run:
 
-    bash
-
-chmod +x download_audio.sh
-
+  ```bash 
+   chmod +x download_audio.sh
+  ```
 Run the Script: Execute the script by providing a URL as an argument. For example:
 
-bash
+```bash
+   ./download_audio.sh "https://example.com/path-to-audio"
+```
 
-    ./download_audio.sh "https://example.com/path-to-audio"
-
-    Replace "https://example.com/path-to-audio" with the actual URL of the media you wish to download.
-
+Replace "https://example.com/path-to-audio" with the actual URL of the media you wish to download.
+    
 Script Details
 
     Input: The script requires a single argument: the URL of the media to be downloaded.
@@ -46,10 +45,9 @@ Example
 
 To download audio from a YouTube video and save it in the default directory, use:
 
-bash
-
+```bash
 ./download_audio.sh "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-
+```
 Troubleshooting
 
     Command Not Found: If you encounter a "command not found" error, make sure yt-dlp is correctly installed and accessible in your system's PATH.
