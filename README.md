@@ -20,7 +20,7 @@ Features
 
 * Usage
 
-    Clone or Download the Script: Ensure you have the script file (download_audio.sh) on your local machine.
+    Clone or Download the Script: Ensure you have the script file (audio downloader.sh) on your local machine.
 
     Make the Script Executable: Before running the script, make sure it has executable permissions. Run:
 
@@ -30,7 +30,7 @@ Features
 Run the Script: Execute the script by providing a URL as an argument. For example:
 
 ```bash
-   ./download_audio.sh "https://example.com/path-to-audio"
+   ./audio downloader.sh "https://example.com/path-to-audio"
 ```
 
 Replace "https://example.com/path-to-audio" with the actual URL of the media you wish to download.
@@ -38,8 +38,10 @@ Replace "https://example.com/path-to-audio" with the actual URL of the media you
 Script Details
 
     Input: The script requires a single argument: the URL of the media to be downloaded.
-    Output Directory: By default, the audio files will be saved to /home/your_username/Music. You can modify the OUTPUT_DIR variable in the script to change this location.
+    Output Directory: By default, the audio files will be saved to /home/(your_username)/Music. You can modify the OUTPUT_DIR variable in the script to change this location.
     Output File Naming: The output file will be named based on the title of the media and its extension, as specified by the OUTPUT_FILE pattern.
+
+    Important NOte: Don't forget to modify the your_username with your actual username path.
 
 Example
 
