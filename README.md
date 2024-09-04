@@ -57,7 +57,6 @@ Troubleshooting
 
 License
 
-This script is provided as-is, without any warranty. You may use and modify it according to your needs.
-Contributing
+This script is provided as part of MIT licence please read licence file for more details. 
 
 If you have suggestions or improvements for this script, feel free to fork the repository, make changes, and submit a pull request.
